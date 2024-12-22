@@ -1,0 +1,45 @@
+/* Стили для контейнера прогресс-бара */
+.progress-bar-container {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Стили для самого прогресс-бара */
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #9b59b6; /* Фиолетовый цвет */
+    transform-origin: left center;
+    transition: transform 0.05s linear;
+}
+
+/* Стили для таймера */
+.timer {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Стили для результата */
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Стили для рядов изображений */
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Стили для изображений */
+.image-row img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
